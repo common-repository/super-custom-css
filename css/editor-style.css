@@ -1,0 +1,50 @@
+.super-block-css-editor {
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.super-block-css-editor .CodeMirror {
+    height: auto;
+    min-height: 100px;
+}
+
+.super-block-css-editor .CodeMirror-scroll {
+    min-height: 100px;
+}
+
+.super-block-css-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.super-block-css-help {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.super-block-css-example {
+    margin-top: 16px;
+    padding: 12px;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.super-block-css-example h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.super-block-css-example pre {
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Styles for the settings page */
+.wrap .super-block-css-settings .CodeMirror {
+    border: 1px solid #ddd;
+    height: 300px;
+}
